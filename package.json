@@ -1,0 +1,21 @@
+{
+  "name": "nuswitch3",
+  "version": "1.0.0",
+  "description": "Compare providers and plans",
+  "bin": {
+    "comparison": "./bin/comparison.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Luis Miguel Angulo",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "faker": "^4.1.0",
+    "sinon": "^9.0.2"
+  }
+}
